@@ -1,0 +1,177 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MY PORTFOLIO</title>
+</head>
+
+<body>
+    <nav>
+        <h1>MY PORTFOLIO</h1>
+        <div class="menu">
+            <div class="toggle">
+                <ion-icon name="add-outline"></ion-icon>
+            </div>
+            <li style="--i:0;">
+                <a href="#">
+                    <ion-icon name="home-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:1;">
+                <a href="#profile">
+                    <ion-icon name="person-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:2;">
+                <a href="#course">
+                    <ion-icon name="book-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:3;">
+                <a href="#project">
+                    <ion-icon name="folder-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:4;">
+                <a href="#skill">
+                    <ion-icon name="bar-chart-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:5;">
+                <a href="#employmentHistory">
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:6;">
+                <a href="#education">
+                    <ion-icon name="school-outline"></ion-icon>
+                </a>
+            </li>
+            <li style="--i:7;">
+                <a href="#contact">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+        </div>
+    </nav>
+    <main>
+        <div class="bgimg-1"></div>
+        <div id="profile" class="content">
+            <h3>Profile</h3>
+            <p>
+                Parallax scrolling is a web site trend where the background content is moved at a different speed
+                than
+                the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis
+                nunc
+                at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est
+                sapien
+                duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat
+                morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non
+                molestie
+                dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in
+                in
+                neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas
+                vulputate,
+                non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit
+                platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+            </p>
+        </div>
+        <div class="bgimg-2"></div>
+        <div id="education" class="content">
+            <h3>Education</h3>
+            <p>
+                Parallax scrolling is a web site trend where the background content is moved at a different speed
+                than
+                the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis
+                nunc
+                at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est
+                sapien
+                duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat
+                morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non
+                molestie
+                dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in
+                in
+                neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas
+                vulputate,
+                non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit
+                platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+            </p>
+        </div>
+        <div class="bgimg-3"></div>
+        <div id="employmentHistory" class="content">
+            <h3>Employment History</h3>
+            <p>
+                Parallax scrolling is a web site trend where the background content is moved at a different speed
+                than
+                the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis
+                nunc
+                at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est
+                sapien
+                duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat
+                morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non
+                molestie
+                dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in
+                in
+                neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas
+                vulputate,
+                non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit
+                platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+            </p>
+        </div>
+        <div class="bgimg-1"></div>
+
+
+
+
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    let toggle = document.querySelector('.toggle');
+    let menu = document.querySelector('.menu');
+    toggle.onclick = function () {
+        menu.classList.toggle('active')
+    }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+</html>
